@@ -22,7 +22,7 @@ ICON_FILE_NAME = 'minecraft.ico'
 
 # The layout of the GUI window.
 LAYOUT = [
-    [sg.Text('Installing...', key=MSG_KEY)],
+    [sg.Text('Installing Fabric and mods...', key=MSG_KEY)],
     [sg.Button('OK', key=BUTTON_KEY, visible=False)]
 ]
 
@@ -35,6 +35,8 @@ WINDOW = sg.Window(
         getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__))),
         ICON_FILE_NAME
     ),
+    keep_on_top=True,
+    resizable=False,
     finalize=True
 )
 

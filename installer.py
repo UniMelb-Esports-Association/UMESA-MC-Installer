@@ -60,4 +60,4 @@ def run() -> str:
     except Exception as e:
         return str(e)
 
-    return 'Success!'
+    return 'Success! Press \'OK\' to close this window.'
