@@ -12,8 +12,8 @@ FABRIC_INSTALLER_URL = 'https://maven.fabricmc.net/net/fabricmc/fabric-installer
 FABRIC_INSTALLER_FILE_NAME = 'fabric-installer.jar'
 
 MODS = {
-    'fabric-api-1.19.4.jar': 'https://cdn.modrinth.com/data/P7dR8mSH/versions/Pz1hLqTB/fabric-api-0.76.0%2B1.19.4.jar',  # noqa
-    'voicechat-fabric-1.19.4.jar': 'https://cdn.modrinth.com/data/9eGKb6K1/versions/pBGz0fqU/voicechat-fabric-1.19.4-2.3.28.jar'  # noqa
+    'fabric-api.jar': 'https://cdn.modrinth.com/data/P7dR8mSH/versions/Pz1hLqTB/fabric-api-0.76.0%2B1.19.4.jar',  # noqa
+    'voicechat-fabric.jar': 'https://cdn.modrinth.com/data/9eGKb6K1/versions/pBGz0fqU/voicechat-fabric-1.19.4-2.3.28.jar'  # noqa
 }
 
 MOD_FOLDERS = {
